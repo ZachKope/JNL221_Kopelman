@@ -1,39 +1,144 @@
-<!-- This is an html page for the 12:30 section of JNL221.
-This page will be used at times for explaining homework instructions
-or displaying student work. -->
+<!-- Complete this worksheet in html and css. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on html tags and css. -->
+<!-- You may work with a partner on this. -->
 
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Foundations Of Data And Digital Journalism</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="index.css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+        p {
+            color: A9A9A9;
+            font-size: 16px;
+            font-family: 'Open Sans', serif;
+            width: 50%;
+        }
+        .book {
+            border:orange;
+        }
 
-<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
+        #quote {
+            color: grey;
+            font-style:italic;
+        }
 
-<body>
-	
-	<!-- Intro row -->
-	<div id="intro" class="col-sm-12">
-		<h1> <!-- /// EDITABLE ONE /// --> JNL221, Spring 2022</h1>
-		<h4> <!-- /// EDITABLE TWO /// --> Zachary Kopelman</h4>
-	</div>
+        #bargraph {
+            border: 1px solid gray;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        .bar_label {
+            color: red;
+        }
+        #longest {
+            width: 300px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #longer {
+            width: 200px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #long {
+            width: 100px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
 
-	<div class="container content">
-		<p> <!-- /// EDITABLE THREE /// --> I find coding very tedious and tiring</p>
-	</div>
+        </style>
+    </head>
+    
+    <body>
+
+    <h1>A little bit about me!</h1>
+    
+    <h2>My intro</h2>
+    <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+    <!-- Tags to use: <p>, <strong>, <i> -->
+        <p>My name is <strong>Zach Kopelman</strong>. I'm from a small town in <strong>New Jersey</strong> called <strong>Long Hill</strong>. For fun, I enjoy <i>working out, playing basketball, watching movies, and spending time with friends and family</i>. I am a broadcast and digital journalism student with a minor in data analytics. My community involves my family: <i>my mom and dad, along with my two younger siblings </i>. My large circle of friends, colleagues, and my dog, <strong>Harley</strong>, are also a part of my community.</p>
+
+    <h2>My handles</h2>
+    <!-- Include: at least two handles for your social media accounts -->
+    <!-- Tags to use: <p>, <a> -->
+        <p> Instagram: <a href="https://www.instagram.com/zachkopelman/" target="_blank">@zachkopelman</a></p>
+        <p> Twitter: <a href="https://twitter.com/Zkope3" target="_blank">@zkope3</a></p>
+        <p> LinkedIn: <a href="https://www.linkedin.com/in/zkope/" target="_blank">LinkedIn Profile</a></p>
+    
+    <h2> ~ Challenge: Why is my text maroon? Answer: The hex code, I changed it. ~</h2>
+    <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) -->
 
 
-  	<!-- About Row -->
-	<div class="row">
-		<div id="end" class="col-sm-12">
-			<h4> <!-- /// EDITABLE FOUR /// --> made by github pages with montserrat and open sans, at newhouse school of communications.</h4>
-		</div>
-	</div>
+    <h2>My favorite meme</h2>
+    <!-- Include: a screenshot of an internet meme that you like -->
+    <!-- Tags to use: <img> -->
+    <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+       <img src="SEANTUCKERPLEASED.jpeg" alt="an image of Syracuse University runningback Sean Tucker with text impling he is pleased with his game performance." height="350" width="400">
 
-</body>
+    
+    <h2>Why I'm a great student</h2>
+    <!-- Include: an unordered list -->
+    <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul>
+            <li>I go to class <strong>on time</strong></li>
+            <li>I put <strong>100%</strong> effort into everything I do</li>
+            <li>I <strong>learn</strong> from my mistake</li>
+        </ul>
+
+    
+    <h2>Top 3 most famous people from my hometown</h2>
+    <!-- Include: an ordered list -->
+    <!-- Tags to use: <ol>, <li>, <a> -->
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/David_Palmer_(vocalist)"target="_blank">David Palmer</a> - Steely Dan</li>
+            <li><a href="https://en.wikipedia.org/wiki/Mickey_Gall"target="_blank">Mickey Gall</a> - UFC</li>
+            <li><a href="https://en.wikipedia.org/wiki/Laura_Prepon"target="_blank">Laura Prepon</a> - Known for her role as Donna in "That '70s Show" among other works</li>
+        </ol>
+
+
+    <h2> ~ Challenge: Read my poetry ~</h2>
+    <!-- Challenge! Figure out what a <br> tag is. Write a short poem about your college experience so far, using only one <p> tag and at least two <br> tags. -->
+        <p>Syracuse is cold
+            <br>Like very, very chilly
+            <br>It snows way too much</p>
+
+    
+    <h2>This is one of my favorite quotes</h2>
+    <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+    <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+        <p id="quote">"But I feel like Michael Jordan, Scottie Pippen at my wedding"</p>
+        <h3>Kanye West: Smuckers - Tyler the Creator (feat. Kanye West) </h3>
+        <h5>Yes, I know this isn't a book</h5>
+
+    <h2>These are  of my favorite books</h2>
+    <!-- Include: an unordered list of at least three books, list items should have a border -->
+    <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+        <ul class="book">
+            <li class="book">A Tale of Two Cities</li>
+            <li>Where Tomorrows Aren't Promised (Carmelo Anthony's book)</li>
+            <li>Holes</li>
+        </ul>
+
+
+    <h3>~ Challenge: A very simple bar graph ~</h3>
+    <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+    <div id="bargraph">
+        <h4>Length of bars</h4>
+        <p class="bar_label">Longest</p>
+        <div id="longest"></div>
+        <p class="bar_label">Longer</p>
+        <div id="longer"></div>
+        <p class="bar_label">Long</p>
+        <div id="long"></div>
+    </div>
+     
+    </body>
 </html>
